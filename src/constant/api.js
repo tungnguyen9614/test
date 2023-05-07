@@ -4,13 +4,14 @@ export const TOKEN_CYBERSOFT = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3A
 
 const http = axios.create()
 const baseURL = "https://movienew.cybersoft.edu.vn/"
+const abc='abc'
 
 http.interceptors.request.use((config)=>{
     return {
         ...config,
         headers: {
             TokenCybersoft: TOKEN_CYBERSOFT,
-            // Authorization: `Bearer ${JSON.parse(localStorage.getItem('user'))?.accessToken}`,
+            Authorization: `Bearer ${JSON.parse(localStorage.getItem('user'))?.accessToken}`,
            
         },
         baseURL,

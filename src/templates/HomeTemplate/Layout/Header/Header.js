@@ -13,7 +13,7 @@ const Header = (props) => {
           className="flex items-center p-2"
         >
           <img
-            src="https://www.cgv.vn/skin/frontend/cgv/default/images/cgvlogo.png"
+            src="https://thumbs.dreamstime.com/b/big-open-clapper-board-movie-reel-cinema-icon-set-movie-film-elements-flat-design-cinema-movie-time-flat-icons-f-95500226.jpg"
             alt="logo"
           />
         </NavLink>
